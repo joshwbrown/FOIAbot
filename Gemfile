@@ -52,7 +52,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-group :ui do
-    # bootstrap 4.0 for looks
-    gem 'bootstrap', '~> 4.0.0.alpha6'
-end
+  # bootstrap 4.0 for looks
+  # gem 'bootstrap', '~> 4.0.0.alpha6'
+  gem 'formtastic', '~> 3.1', '>= 3.1.5'
